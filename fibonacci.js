@@ -23,10 +23,10 @@ console.log(fibs(3));
 function fibsRec(n, results=[]) {
     if (n == 1) {
         results.push(0);
-        return results;
+        
     } else if (n == 2) {
         results.push(0,1);
-        return results;
+       
     }
     
     else {
